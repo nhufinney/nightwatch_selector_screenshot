@@ -15,13 +15,13 @@ Run the test:
 (In this repo, nightwatch automatically controls selenium so do not need to start selenium manually).
 
 In terminal:
-
-	$ java -version
-	
-	$ node -v
 	
 	$ cd nightwatch/bin
+	
+	$ npm install
 		
 Open a new terminal tab:
 
-	./bin/nightwatch -t example_test.js
+	./bin/nightwatch -t examples/tests/google.js
+	
+After run the test command, see result in directory: ./test/screenshots/
