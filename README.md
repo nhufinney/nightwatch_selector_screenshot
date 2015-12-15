@@ -20,8 +20,8 @@ In terminal:
 	
 	$ npm install
 		
-Open a new terminal tab:
+Run test command:
 
-	bin/nightwatch -t examples/tests/google.js
+	$ bin/nightwatch -t examples/tests/google.js
 	
 After run the test command, see result in directory: ./test/screenshots/
