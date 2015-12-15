@@ -1,0 +1,29 @@
+17:21:38.878 INFO - Launching a standalone Selenium Server
+17:21:38.910 INFO - Java: Oracle Corporation 25.66-b17
+17:21:38.910 INFO - OS: Mac OS X 10.10.5 x86_64
+17:21:38.920 INFO - v2.48.0, with Core v2.48.0. Built from revision 41bccdd
+17:21:38.980 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+17:21:38.980 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+17:21:38.980 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:21:38.981 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+17:21:39.067 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+17:21:39.067 INFO - Selenium Server is up and running
+17:21:39.349 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Nhutest, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+17:21:39.360 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Nhutest, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+17:21:41.748 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Nhutest, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
+17:21:41.767 INFO - Executing: [get: http://t4dev51.tarot.com/cosmic-profile])
+17:21:41.833 INFO - Done: [get: http://t4dev51.tarot.com/cosmic-profile]
+17:21:41.847 INFO - Executing: [find element: By.cssSelector: #main-footer-box])
+17:21:45.377 INFO - Done: [find element: By.cssSelector: #main-footer-box]
+17:21:45.383 INFO - Executing: [get element size: 0 [[FirefoxDriver: firefox on MAC (df16cc75-1492-3448-9370-e318fdd7cad7)] -> css selector: #main-footer-box]])
+17:21:45.520 INFO - Done: [get element size: 0 [[FirefoxDriver: firefox on MAC (df16cc75-1492-3448-9370-e318fdd7cad7)] -> css selector: #main-footer-box]]
+17:21:45.528 INFO - Executing: [find element: By.cssSelector: #main-footer-box])
+17:21:45.542 INFO - Done: [find element: By.cssSelector: #main-footer-box]
+17:21:45.545 INFO - Executing: [get location: 0 [[FirefoxDriver: firefox on MAC (df16cc75-1492-3448-9370-e318fdd7cad7)] -> css selector: #main-footer-box]])
+17:21:45.559 INFO - Done: [get location: 0 [[FirefoxDriver: firefox on MAC (df16cc75-1492-3448-9370-e318fdd7cad7)] -> css selector: #main-footer-box]]
+17:21:45.563 INFO - Executing: [take screenshot])
+17:21:45.886 INFO - Done: [take screenshot]
+17:21:46.018 INFO - Executing: [delete session: 68915de6-c6b2-4c50-95b0-2cf8b9c2037a])
+17:21:46.112 INFO - Done: [delete session: 68915de6-c6b2-4c50-95b0-2cf8b9c2037a]
