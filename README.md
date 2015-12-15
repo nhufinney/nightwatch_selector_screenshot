@@ -22,6 +22,6 @@ In terminal:
 		
 Open a new terminal tab:
 
-	./bin/nightwatch -t examples/tests/google.js
+	bin/nightwatch -t examples/tests/google.js
 	
 After run the test command, see result in directory: ./test/screenshots/
